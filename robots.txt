@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jfpio.github.io/al-folio/sitemap.xml
+Sitemap: https://jfpio.github.io/sitemap.xml
