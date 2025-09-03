@@ -43,7 +43,7 @@
         "Set up HPO and evaluation harness with W&B logging; syntax-level fixes did not translate into reasoning gains.",
         "Stabilized iteration via CI and unit tests.",
         "Released two steering-augmented models on Hugging Face; documented evaluation protocol.",
-        "Selected contributions: closed PRs by jfpio — https://github.com/wisent-ai/wisent-guard/pulls?q=is%3Apr+is%3Aclosed+author%3Ajfpio (TODO: add specific model cards/IDs)"
+        "Selected contributions: closed PRs by jfpio — https://github.com/wisent-ai/wisent-guard/pulls?q=is%3Apr+is%3Aclosed+author%3Ajfpio"
       ]
     },
     {
@@ -54,8 +54,7 @@
       "endDate": "2025-06",
       "summary": "Research on RL for multi-agent LLM debate and on predicting narcissism from user-generated text (with Faculty of Psychology).",
       "highlights": [
-        "Reinforcement Learning for Improving LLM Debate Protocols — building on ‘Training Language Models to Win Debates with Self-Play Improves Judge Accuracy’. Managed LLaMA-family runs on HPC via Singularity; designed synthetic environments and proxy tasks; co-implemented novel RL algorithms and datasets. (TODO: add repo/preprint link)",
-        "Predicting Narcissism from User-Generated Texts — BERT-based regression and few-shot prompting with SOTA LLMs; transformer models showed promise but data scarcity limited generalization."
+        "Reinforcement Learning for Improving LLM Debate Protocols — building on ‘Training Language Models to Win Debates with Self-Play Improves Judge Accuracy’. Managed LLaMA-family runs on HPC via Singularity; designed synthetic environments and proxy tasks; co-implemented novel RL algorithms and datasets.""Predicting Narcissism from User-Generated Texts — BERT-based regression and few-shot prompting with SOTA LLMs; transformer models showed promise but data scarcity limited generalization."
       ]
     },
     {
@@ -68,8 +67,8 @@
       "highlights": [
         "Contrastive Learning for Linking Twitter Posts to News (ERC-funded) — BERT-based dual encoders; experimental design, literature review, development, analysis; collaboration with UW students; preprint: https://arxiv.org/abs/2312.07599",
         "Automated Counter-Speech to Mitigate Hate Speech — supported student-led project; added engagement metric, expanded literature review and ethics; paper accepted at EMNLP Findings 2024; preprint: https://arxiv.org/abs/2311.16905",
-        "Photo Clustering for advertising client (project value: 25,000 EUR) — embeddings + GroundingDINO + GPT-4; accuracy 99.5% (up from 95%); received positive LinkedIn feedback. (TODO: add case study link)",
-        "Disinformation Analysis System for NASK — co-designed ML system; presented at Warsaw Computer Science Days 2024 (rating 4.8/5). (TODO: add slides/poster link)",
+        "Photo Clustering for advertising client (project value: 25,000 EUR) — embeddings + GroundingDINO + GPT-4; accuracy 99.5% (up from 95%); received positive LinkedIn feedback.",
+        "Disinformation Analysis System for NASK — co-designed ML system; presented at Warsaw Computer Science Days 2024 (rating 4.8/5).",
         "Public writing on AI & platform governance — Klub Jagielloński article: https://klubjagiellonski.pl/2025/04/23/stanislaw-lem-przewidzial-patologie-x-a-czy-da-sie-uratowac-platforme-elona-muska/",
         "Ops & infra — trained/evaluated/fine-tuned deep models on GPU clusters; Hydra for configs, Optuna for HPO, Neptune for tracking."
       ]
@@ -84,7 +83,7 @@
       "highlights": [
         "Managed camps of 120 participants (ages 11–20), logistics, safety, ~€25k budget; mentored team leaders.",
         "Led local scout community 4 years; grew from 8 to 10 units, coordinated activities for ~250 members; reduced leader turnover by 50% via new programs and mentorship (~30 leaders).",
-        "Organized public discussions on youth/societal issues with Polish think tanks; video: https://www.youtube.com/watch?v=7XiXUfiU5Ms (TODO: add playlist/series info)"
+        "Organized public discussions on youth/societal issues with Polish think tanks; video: https://www.youtube.com/watch?v=7XiXUfiU5Ms"
       ]
     }
   ],
