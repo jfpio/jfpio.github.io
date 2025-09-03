@@ -1,200 +1,198 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jan Franciszek Piotrowski",
+    "label": "Machine Learning Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "janfpiotrowski (at) gmail (ԁot) com",
+    "url": "https://jfpio.github.io/",
+    "summary": "Early-career ML researcher focused on AI Safety and trustworthy language systems. I’ve worked on contrastive learning, counter-speech, and RL for LLM debate. Long-term, I aim to contribute to EU AI policy and standards.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Warsaw",
+      "countryCode": "PL",
+      "region": "Mazovia"
     },
     "profiles": [
       {
+        "network": "GitHub",
+        "username": "jfpio",
+        "url": "https://github.com/jfpio"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jan-piotrowski-23553719b",
+        "url": "https://linkedin.com/in/jan-piotrowski-23553719b"
+      },
+      {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "jfpio98",
+        "url": "https://x.com/jfpio98"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Wisent",
+      "position": "Machine Learning Research Engineer (Short-term)",
+      "location": "Warsaw, PL",
+      "url": "https://github.com/wisent-ai/wisent-guard",
+      "startDate": "2025-07",
+      "endDate": "2025-08",
+      "summary": "Built a reproducible LLM steering experimentation pipeline; validated/extended steering implementations; introduced CI and tests; released steering-augmented models.",
+      "highlights": [
+        "Set up HPO and evaluation harness with W&B logging; syntax-level fixes did not translate into reasoning gains.",
+        "Stabilized iteration via CI and unit tests.",
+        "Released two steering-augmented models on Hugging Face; documented evaluation protocol.",
+        "Selected contributions: closed PRs by jfpio — https://github.com/wisent-ai/wisent-guard/pulls?q=is%3Apr+is%3Aclosed+author%3Ajfpio (TODO: add specific model cards/IDs)"
+      ]
+    },
+    {
+      "name": "University of Warsaw",
+      "position": "Machine Learning Researcher",
+      "location": "Warsaw, PL",
+      "startDate": "2025-01",
+      "endDate": "2025-06",
+      "summary": "Research on RL for multi-agent LLM debate and on predicting narcissism from user-generated text (with Faculty of Psychology).",
+      "highlights": [
+        "Reinforcement Learning for Improving LLM Debate Protocols — building on ‘Training Language Models to Win Debates with Self-Play Improves Judge Accuracy’. Managed LLaMA-family runs on HPC via Singularity; designed synthetic environments and proxy tasks; co-implemented novel RL algorithms and datasets. (TODO: add repo/preprint link)",
+        "Predicting Narcissism from User-Generated Texts — BERT-based regression and few-shot prompting with SOTA LLMs; transformer models showed promise but data scarcity limited generalization."
+      ]
+    },
+    {
+      "name": "MIM Solutions",
+      "position": "Machine Learning Engineer",
+      "location": "Warsaw, PL",
+      "startDate": "2022-01",
+      "endDate": "2024-12",
+      "summary": "End-to-end ML/NLP work across research and production: dual-encoder contrastive learning, counter-speech generation, vision clustering, disinformation analysis.",
+      "highlights": [
+        "Contrastive Learning for Linking Twitter Posts to News (ERC-funded) — BERT-based dual encoders; experimental design, literature review, development, analysis; collaboration with UW students; preprint: https://arxiv.org/abs/2312.07599",
+        "Automated Counter-Speech to Mitigate Hate Speech — supported student-led project; added engagement metric, expanded literature review and ethics; paper accepted at EMNLP Findings 2024; preprint: https://arxiv.org/abs/2311.16905",
+        "Photo Clustering for advertising client (project value: 25,000 EUR) — embeddings + GroundingDINO + GPT-4; accuracy 99.5% (up from 95%); received positive LinkedIn feedback. (TODO: add case study link)",
+        "Disinformation Analysis System for NASK — co-designed ML system; presented at Warsaw Computer Science Days 2024 (rating 4.8/5). (TODO: add slides/poster link)",
+        "Public writing on AI & platform governance — Klub Jagielloński article: https://klubjagiellonski.pl/2025/04/23/stanislaw-lem-przewidzial-patologie-x-a-czy-da-sie-uratowac-platforme-elona-muska/",
+        "Ops & infra — trained/evaluated/fine-tuned deep models on GPU clusters; Hydra for configs, Optuna for HPO, Neptune for tracking."
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Polish Scouting Association (ZHR) — Mazovian Region",
+      "position": "Scout Leader, Board Member",
+      "startDate": "2017-01",
+      "summary": "Oversight and QA of summer/winter camps for 2,000+ youth annually; leadership development and community growth.",
+      "highlights": [
+        "Managed camps of 120 participants (ages 11–20), logistics, safety, ~€25k budget; mentored team leaders.",
+        "Led local scout community 4 years; grew from 8 to 10 units, coordinated activities for ~250 members; reduced leader turnover by 50% via new programs and mentorship (~30 leaders).",
+        "Organized public discussions on youth/societal issues with Polish think tanks; video: https://www.youtube.com/watch?v=7XiXUfiU5Ms (TODO: add playlist/series info)"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "University of Warsaw, Poland",
+      "area": "Machine Learning",
+      "studyType": "M.Sc.",
+      "startDate": "2022",
+      "endDate": "2024",
+      "score": "GPA: 4.58/5",
+      "courses": [
+        "Deep Learning",
+        "Natural Language Processing",
+        "Computational Social Choice",
+        "ML in Big Scale",
+        "Explainable ML"
+      ],
+      "summary": "Thesis: Linking news to tweets cascades with contrastive learning approach"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "Sorbonne Université, France",
+      "area": "Project Management",
+      "studyType": "Postgraduate (Interrupted)",
+      "startDate": "2022",
+      "summary": "Postgraduate studies in Project Management (interrupted)."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Warsaw University of Technology, Poland",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2018",
+      "endDate": "2022"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "LLM-generated Responses to Mitigate the Impact of Hate Speech",
+      "publisher": "EMNLP Findings 2024",
+      "releaseDate": "2024",
+      "url": "https://aclanthology.org/2024.findings-emnlp.931/",
+      "summary": "Automated counter-speech generation against online hate speech targeting Ukrainian refugees. (Authors: Podolak, Łukasik, Balawender, Ossowski, Piotrowski, Bąkowicz, Sankowski)"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Linking news to tweets cascades with contrastive learning approach",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2023-12",
+      "url": "https://arxiv.org/abs/2312.07599",
+      "summary": "BERT-based dual-encoder methods for linking Twitter posts with news articles around real-world events."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "[PL] Stanisław Lem przewidział patologie X-a — a czy da się uratować platformę Elona Muska?",
+      "publisher": "Klub Jagielloński",
+      "releaseDate": "2025-04-23",
+      "url": "https://klubjagiellonski.pl/2025/04/23/stanislaw-lem-przewidzial-patologie-x-a-czy-da-sie-uratowac-platforme-elona-muska/",
+      "summary": "Public-facing analysis on societal risks of AI-driven content moderation and platform governance."
     }
   ],
+  "projects": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Machine Learning & NLP",
+      "level": "Advanced",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "LLMs",
+        "Reinforcement Learning",
+        "Mechanistic Interpretability",
+        "Scalable Oversight",
+        "Contrastive Learning",
+        "Embeddings",
+        "BERT / LLaMA",
+        "Hugging Face",
+        "Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "name": "Engineering & MLOps",
+      "level": "Advanced",
+      "keywords": [
+        "PyTorch",
+        "Hydra",
+        "Optuna",
+        "Weights & Biases",
+        "Neptune",
+        "CI/CD",
+        "Unit Testing",
+        "Singularity",
+        "GPU Clusters"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "Polish",
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "C1"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "AI Safety",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Mechanistic interpretability",
+        "Scalable oversight"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
