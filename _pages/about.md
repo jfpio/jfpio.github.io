@@ -23,5 +23,5 @@ latest_posts:
 ---
 “Try to leave this world a little better than you found it,” said [Robert Baden-Powell](https://en.wikipedia.org/wiki/Robert_Baden-Powell). That line guides my work in AI Safety: I build and evaluate ML systems to make them more trustworthy and less harmful.
 
-My goal is to produce research that informs public policy - evaluations, data, and recommendations that decision-makers can use.
+My goal is to do research that informs public policy - evaluations, data, and recommendations that decision-makers can use.
 
