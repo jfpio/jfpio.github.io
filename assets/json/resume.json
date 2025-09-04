@@ -54,7 +54,8 @@
       "endDate": "2025-06",
       "summary": "Research on RL for multi-agent LLM debate and on predicting narcissism from user-generated text (with Faculty of Psychology).",
       "highlights": [
-        "Reinforcement Learning for Improving LLM Debate Protocols — building on ‘Training Language Models to Win Debates with Self-Play Improves Judge Accuracy’. Managed LLaMA-family runs on HPC via Singularity; designed synthetic environments and proxy tasks; co-implemented novel RL algorithms and datasets.""Predicting Narcissism from User-Generated Texts — BERT-based regression and few-shot prompting with SOTA LLMs; transformer models showed promise but data scarcity limited generalization."
+        "Reinforcement Learning for Improving LLM Debate Protocols — building on ‘Training Language Models to Win Debates with Self-Play Improves Judge Accuracy’. Managed LLaMA-family runs on HPC via Singularity; designed synthetic environments and proxy tasks; co-implemented novel RL algorithms and datasets.",
+        "Predicting Narcissism from User-Generated Texts — BERT-based regression and few-shot prompting with SOTA LLMs; transformer models showed promise but data scarcity limited generalization."
       ]
     },
     {
