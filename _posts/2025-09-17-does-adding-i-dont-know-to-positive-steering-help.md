@@ -1,11 +1,11 @@
 ---
 layout: distill
 title: Does adding “I don’t know” to positive steering help?
-description: I reweight 'I don’t know' answers in ITI and evaluate on TruthfulQA
-tags: distill formatting
+description: A mini-project for the Neel Nanda MATS track
+tags: steering mechanistic-interpretability
 giscus_comments: true
 date: '2025-09-17'
-featured: true
+featured: false
 mermaid:
   enabled: true
   zoomable: true
