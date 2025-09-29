@@ -95,7 +95,7 @@ We've basically rely on original ITI repo implementation [https://github.com/lik
 - **Hallucinations (H):** **8.0% → 5.3% at β=10** (Δ = **−2.7 pp**, **Holm-adj p≈0.035**; trend **p≈0.011**).  
 - **TI:** ~**0.515** at β=1, **~0.522 at β=5**, **~0.504 at β=10** — **flat within CIs**, no significant pairwise changes.  
 - **U (cost):** **~3% at β∈{0,2}**, **~9% at β=5**, **~14% at β=10** among baseline-TI items (U_n=407).  
-These trends (less **H**, more **U**, flat **TI**) illustrate a **safety–coverage trade-off** consistent with the calibration perspective in **Kalai et al. (2025)**. # TODO
+These trends (less **H**, more **U**, flat **TI**) illustrate a **safety–coverage trade-off** consistent with the calibration perspective in **Kalai et al. (2025)**.
 ---
 
 <div class="l-page">
