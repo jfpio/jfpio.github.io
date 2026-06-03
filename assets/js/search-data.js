@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "selected projects and tools",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -41,7 +48,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-scout-life-balance-v2",
+          title: 'Scout Life Balance v2',
+          description: "A swipe-based decision game about finding life balance, created for scouts and inspired by Reigns.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/scout-life-balance/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
