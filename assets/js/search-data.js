@@ -50,7 +50,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-scout-life-balance-v2",
           title: 'Scout Life Balance v2',
-          description: "A swipe-based decision game about finding life balance, created for scouts and inspired by Reigns.",
+          description: "A game and training tool for scout leadership courses, helping future leaders and instructors discuss life balance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/scout-life-balance/";
             },},{
