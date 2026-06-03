@@ -4,9 +4,10 @@
     "name": "Jan Franciszek Piotrowski",
     "label": "Machine Learning Researcher",
     "image": "",
-    "email": "janfpiotrowski (at) gmail (ԁot) com",
+    "email": "janfpiotrowski@gmail.com",
+    "phone": "+48 884 307 629",
     "url": "https://jfpio.github.io/",
-    "summary": "Early-career ML researcher focused on AI Safety and trustworthy language systems. I’ve worked on contrastive learning, counter-speech, and RL for LLM debate. Long-term, I aim to contribute to EU AI policy and standards.",
+    "summary": "I aim to maximise AI's benefits while reducing systemic risks. My research currently focuses on multi-agent safety and emergent misalignment. I am pursuing a PhD at the Centre for Credible AI, Warsaw University of Technology.",
     "location": {
       "city": "Warsaw",
       "countryCode": "PL",
@@ -22,28 +23,20 @@
         "network": "LinkedIn",
         "username": "jan-piotrowski-23553719b",
         "url": "https://linkedin.com/in/jan-piotrowski-23553719b"
-      },
-      {
-        "network": "Twitter",
-        "username": "jfpio98",
-        "url": "https://x.com/jfpio98"
       }
     ]
   },
   "work": [
     {
-      "name": "Wisent",
-      "position": "Machine Learning Research Engineer (Short-term)",
+      "name": "Centre for Credible AI",
+      "position": "Machine Learning Researcher",
       "location": "Warsaw, PL",
-      "url": "https://github.com/wisent-ai/wisent-guard",
-      "startDate": "2025-07",
-      "endDate": "2025-08",
-      "summary": "Built a reproducible LLM steering experimentation pipeline; validated/extended steering implementations; introduced CI and tests; released steering-augmented models.",
+      "startDate": "2025-11",
+      "summary": "",
       "highlights": [
-        "Set up HPO and evaluation harness with W&B logging; syntax-level fixes did not translate into reasoning gains.",
-        "Stabilized iteration via CI and unit tests.",
-        "Released two steering-augmented models on Hugging Face; documented evaluation protocol.",
-        "Selected contributions: closed PRs by jfpio — https://github.com/wisent-ai/wisent-guard/pulls?q=is%3Apr+is%3Aclosed+author%3Ajfpio"
+        "Investigating whether multi-agent LLM systems deliver genuine capability gains or primarily act as additional test-time compute, using mathematical reasoning tasks as the main evaluation setting.",
+        "Teaching a student research group and mentoring its mini-project on emergent misalignment, which builds on Model Organisms for Emergent Misalignment (Turner et al., 2025).",
+        "Member of a red-teaming group on AI control and LLM-based agents; exploring inoculation prompting vs. steering-vector methods and rule-breaking tendencies in LLM agents."
       ]
     },
     {
@@ -52,10 +45,9 @@
       "location": "Warsaw, PL",
       "startDate": "2025-01",
       "endDate": "2025-06",
-      "summary": "Research on RL for multi-agent LLM debate and on predicting narcissism from user-generated text (with Faculty of Psychology).",
+      "summary": "",
       "highlights": [
-        "Reinforcement Learning for Improving LLM Debate Protocols — building on ‘Training Language Models to Win Debates with Self-Play Improves Judge Accuracy’. Managed LLaMA-family runs on HPC via Singularity; designed synthetic environments and proxy tasks; co-implemented novel RL algorithms and datasets.",
-        "Predicting Narcissism from User-Generated Texts — BERT-based regression and few-shot prompting with SOTA LLMs; transformer models showed promise but data scarcity limited generalization."
+        "RL for Scalable Oversight via LLM Debate. Extended Training Language Models to Win Debates with Self-Play Improves Judge Accuracy to study RL training in multi-agent debate as a scalable-oversight method."
       ]
     },
     {
@@ -64,31 +56,32 @@
       "location": "Warsaw, PL",
       "startDate": "2022-01",
       "endDate": "2024-12",
-      "summary": "End-to-end ML/NLP work across research and production: dual-encoder contrastive learning, counter-speech generation, vision clustering, disinformation analysis.",
+      "summary": "",
       "highlights": [
-        "Contrastive Learning for Linking Twitter Posts to News (ERC-funded) — BERT-based dual encoders; experimental design, literature review, development, analysis; collaboration with UW students; preprint: https://arxiv.org/abs/2312.07599",
-        "Automated Counter-Speech to Mitigate Hate Speech — supported student-led project; added engagement metric, expanded literature review and ethics; paper accepted at EMNLP Findings 2024; preprint: https://arxiv.org/abs/2311.16905",
-        "Photo Clustering for advertising client (project value: 25,000 EUR) — embeddings + GroundingDINO + GPT-4; accuracy 99.5% (up from 95%); received positive LinkedIn feedback.",
-        "Disinformation Analysis System for NASK — co-designed ML system; presented at Warsaw Computer Science Days 2024 (rating 4.8/5).",
-        "Public writing on AI & platform governance — Klub Jagielloński article: https://klubjagiellonski.pl/2025/04/23/stanislaw-lem-przewidzial-patologie-x-a-czy-da-sie-uratowac-platforme-elona-muska/",
-        "Ops & infra — trained/evaluated/fine-tuned deep models on GPU clusters; Hydra for configs, Optuna for HPO, Neptune for tracking."
+        "Contrastive Learning for Linking Tweets to Events (ERC-funded). Led a research initiative supervised by Prof. Sankowski developing BERT-based dual encoders to link Twitter posts with news articles; owned experimental design, modelling, and analysis. Preprint: https://arxiv.org/abs/2312.07599.",
+        "Automated Counter-Speech to Mitigate Hate Speech (EMNLP Findings 2024). Took over a stalled student project as lead after two rejections: introduced a novel engagement metric, added ethical analysis, and rewrote the manuscript, leading to acceptance. Preprint: https://arxiv.org/abs/2311.16905.",
+        "Research Infrastructure. Trained, evaluated, and fine-tuned deep learning models on GPU clusters using Hydra for configuration, Optuna for hyperparameter optimization, and Neptune for experiment tracking."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Polish Scouting Association (ZHR) — Mazovian Region",
-      "position": "Scout Leader, Board Member",
-      "startDate": "2017-01",
-      "summary": "Oversight and QA of summer/winter camps for 2,000+ youth annually; leadership development and community growth.",
+      "organization": "Polish Scouting Association (ZHR)",
+      "position": "Scout Leader, Board Member - Mazovian Region",
+      "startDate": "2017",
+      "summary": "",
       "highlights": [
-        "Managed camps of 120 participants (ages 11–20), logistics, safety, ~€25k budget; mentored team leaders.",
-        "Led local scout community 4 years; grew from 8 to 10 units, coordinated activities for ~250 members; reduced leader turnover by 50% via new programs and mentorship (~30 leaders).",
-        "Organized public discussions on youth/societal issues with Polish think tanks; video: https://www.youtube.com/watch?v=7XiXUfiU5Ms"
+        "Board Member overseeing quality assurance of camps for 2,000+ youth annually; directly managed camps of 120 participants with a 25,000 EUR budget, and mentored 30 leaders."
       ]
     }
   ],
   "education": [
+    {
+      "institution": "Centre for Credible AI, Warsaw University of Technology, Poland",
+      "area": "Research focus: multi-agent safety",
+      "studyType": "PhD Student",
+      "startDate": "2026"
+    },
     {
       "institution": "University of Warsaw, Poland",
       "area": "Machine Learning",
@@ -97,20 +90,9 @@
       "endDate": "2024",
       "score": "GPA: 4.58/5",
       "courses": [
-        "Deep Learning",
-        "Natural Language Processing",
-        "Computational Social Choice",
-        "ML in Big Scale",
-        "Explainable ML"
-      ],
-      "summary": "Thesis: Linking news to tweets cascades with contrastive learning approach"
-    },
-    {
-      "institution": "Sorbonne Université, France",
-      "area": "Project Management",
-      "studyType": "Postgraduate (Interrupted)",
-      "startDate": "2022",
-      "summary": "Postgraduate studies in Project Management (interrupted)."
+        "GPA: 4.58 / 5",
+        "Thesis: Linking news to tweet cascades with a contrastive learning approach"
+      ]
     },
     {
       "institution": "Warsaw University of Technology, Poland",
@@ -122,77 +104,22 @@
   ],
   "publications": [
     {
+      "name": "Interpretable Semantic Gradients in SSD: A PCA Sweep Approach and a Case Study on AI Discourse",
+      "publisher": "ACL 2026 Findings",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2603.13038",
+      "summary": "Authors: Plisiecki, Leniarska, Piotrowski, Zajenkowski."
+    },
+    {
       "name": "LLM-generated Responses to Mitigate the Impact of Hate Speech",
       "publisher": "EMNLP Findings 2024",
       "releaseDate": "2024",
       "url": "https://aclanthology.org/2024.findings-emnlp.931/",
-      "summary": "Automated counter-speech generation against online hate speech targeting Ukrainian refugees. (Authors: Podolak, Łukasik, Balawender, Ossowski, Piotrowski, Bąkowicz, Sankowski)"
-    },
-    {
-      "name": "Linking news to tweets cascades with contrastive learning approach",
-      "publisher": "arXiv preprint",
-      "releaseDate": "2023-12",
-      "url": "https://arxiv.org/abs/2312.07599",
-      "summary": "BERT-based dual-encoder methods for linking Twitter posts with news articles around real-world events."
-    },
-    {
-      "name": "[PL] Stanisław Lem przewidział patologie X-a — a czy da się uratować platformę Elona Muska?",
-      "publisher": "Klub Jagielloński",
-      "releaseDate": "2025-04-23",
-      "url": "https://klubjagiellonski.pl/2025/04/23/stanislaw-lem-przewidzial-patologie-x-a-czy-da-sie-uratowac-platforme-elona-muska/",
-      "summary": "Public-facing analysis on societal risks of AI-driven content moderation and platform governance."
+      "summary": "Authors: Podolak, Lukasik, Balawender, Ossowski, Piotrowski, Bakowicz, Sankowski."
     }
   ],
   "projects": [],
-  "skills": [
-    {
-      "name": "Machine Learning & NLP",
-      "level": "Advanced",
-      "keywords": [
-        "LLMs",
-        "Reinforcement Learning",
-        "Mechanistic Interpretability",
-        "Scalable Oversight",
-        "Contrastive Learning",
-        "Embeddings",
-        "BERT / LLaMA",
-        "Hugging Face",
-        "Evaluation & Benchmarks"
-      ]
-    },
-    {
-      "name": "Engineering & MLOps",
-      "level": "Advanced",
-      "keywords": [
-        "PyTorch",
-        "Hydra",
-        "Optuna",
-        "Weights & Biases",
-        "Neptune",
-        "CI/CD",
-        "Unit Testing",
-        "Singularity",
-        "GPU Clusters"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Polish",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "C1"
-    }
-  ],
-  "interests": [
-    {
-      "name": "AI Safety",
-      "keywords": [
-        "Mechanistic interpretability",
-        "Scalable oversight"
-      ]
-    }
-  ]
+  "skills": [],
+  "languages": [],
+  "interests": []
 }
