@@ -6,6 +6,7 @@ tags: steering mechanistic-interpretability
 giscus_comments: true
 date: '2025-09-17'
 featured: false
+published: false
 mermaid:
   enabled: true
   zoomable: true
@@ -175,4 +176,3 @@ All code details are available in the [https://github.com/jfpio/iti-idk-weightin
 - **Decoding:** greedy, fixed across β.  
 - **Dataset:** **N=790** questions paired across all β.  
 - **Stats:** Paired bootstrap CIs; **McNemar** ΔTI/ΔH (Holm); **Bowker** 4-bucket; **Cochran–Armitage** trends.  
-
